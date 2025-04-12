@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+nav .right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav .right .link {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    color: white;
+    border-radius: 15px;
+    background-color: #17252A;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav .right .link:hover {
+    background-color: #2e3a3f;
+}
