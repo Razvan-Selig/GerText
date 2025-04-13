@@ -85,7 +85,7 @@ function Register() {
 
         <div className="form-element">
           <label htmlFor="password">Password</label>
-          <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="Enter Password" />
+          <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="Enter Password" minlength="8" />
         </div>
         
         <p>* - Remember <span>Username</span> because you will use it for <span>Log In</span></p>
