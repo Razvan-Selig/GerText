@@ -74,7 +74,7 @@ function Register() {
         </div>
 
         <div className="form-element">
-          <label htmlFor="username">Username</label>
+          <label htmlFor="username">Username*</label>
           <input value={id} onChange={(e) => setId(e.target.value)} type="text" placeholder="Enter a username" />
         </div>
 
@@ -88,6 +88,8 @@ function Register() {
           <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="Enter Password" />
         </div>
         
+        <p>* - Remember <span>Username</span> because you will use it for <span>Log In</span></p>
+
         <button>Submit</button>
       </form>
     </div>
