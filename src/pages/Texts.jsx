@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 
+import "../styles/Texts.css"
+
 function Texts() {
 
   const [myText, setMyText] = useState([])
@@ -15,14 +17,16 @@ function Texts() {
 
   return (
     <>
-      <p>My texts</p>
+      <div className="texts-saved">
+        <p className="title">My texts</p>
 
-      {myText.map(myText => (
-        <div key={myText.id} className="my_text">
-            <h3>{myText.title}</h3>
-            <p>{myText.content}</p>
-        </div>
+        {myText.map(myText => (
+          <div key={myText.id} className="my-text">
+              <h3>{myText.title}</h3>
+              <p>{myText.content}</p>
+          </div>
       ))}
+      </div>
     </>
   );
 }

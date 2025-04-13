@@ -1,0 +1,33 @@
+.texts-saved {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.texts-saved .title {
+    color: #4DB6AC;
+    font-size: 25px;
+}
+
+.my-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.5;
+    /* border: 1px solid yellow; */
+    width: 500px;
+    margin: auto;
+    border-bottom: 1px solid #4DB6AC;
+    padding: 10px;
+}
+
+.texts-saved h3 {
+    color: #FFDB58;
+}
+
+.texts-saved p {
+    color: #E2725B;
+}

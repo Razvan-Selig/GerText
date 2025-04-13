@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import {Link, useNavigate} from "react-router-dom"
 import {toast} from "react-toastify"
 
+import "../styles/Login.css"
+
 
 function Login({ setIsLoggedIn }) {
 
@@ -53,14 +55,22 @@ function Login({ setIsLoggedIn }) {
 
     return (
         <>
-        <p>Login page</p>
         
         <div className="login">
+
+            <h2>Log In</h2>
+
             <form onSubmit={ProceedLogin}>
-                <label >Username</label>
-                <input type="text" value={username} onChange={e => setUsername(e.target.value)}/>
-                <label >Password</label>
-                <input type="password" value={password} onChange={e => setPassword(e.target.value)}/>
+                <div className="form-element">
+                 <label >Username</label>
+                 <input type="text" value={username} onChange={e => setUsername(e.target.value)}/>
+                </div>
+
+                <div className="form-element">
+                    <label >Password</label>
+                    <input type="password" value={password} onChange={e => setPassword(e.target.value)}/>
+                </div>
+
                 <button type="submit">Login</button>
             </form>
         </div>

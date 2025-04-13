@@ -1,0 +1,48 @@
+.texts-container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.texts-container .title {
+    color: #4DB6AC;
+    font-size: 25px;
+}
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.5;
+    /* border: 1px solid yellow; */
+    width: 500px;
+    margin: auto;
+    border-bottom: 1px solid #4DB6AC;
+    padding: 10px;
+}
+
+.text-card h3 {
+    color: #FFDB58;
+}
+
+.text-card p {
+    color: #E2725B;
+}
+
+.text-card button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #3d5a80;
+    color: white;
+    font-size: 17px;
+    transition: 0.3s;
+    width: 100px;
+}

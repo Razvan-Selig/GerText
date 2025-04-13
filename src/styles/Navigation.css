@@ -31,3 +31,19 @@ nav .right .link {
 nav .right .link:hover {
     background-color: #be563d;
 }
+
+nav .right button {
+    background-color: #e84855;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px;
+    transition: 0.3s;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav .right button:hover {
+    background-color: #b93944;
+}

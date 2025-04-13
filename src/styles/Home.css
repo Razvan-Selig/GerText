@@ -5,12 +5,9 @@ main {
     justify-content: space-around;
     height: 100vh;
     /* border: 1px solid red; */
+    margin-top: 5rem;
 }
 
-main {
-    margin-top: 5rem;
-    /* border: 1px solid red; */
-}
 
 main .hero img {
     height: 300px;

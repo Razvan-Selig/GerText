@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
 import { toast } from "react-toastify"
 
+import "../styles/AvailableTexts.css"
+
 function AvailableTexts() {
 
     const [texts, setTexts] = useState([])
@@ -36,9 +38,10 @@ function AvailableTexts() {
 
     return (
         <>
-        <p>Texts</p>
+        
 
-        <div className="textsContainer">
+        <div className="texts-container">
+            <p className="title">Texts</p>
             {texts.map(text => (
                 <div key={text.id} className="text-card">
                     <h3>{text.title}</h3>
