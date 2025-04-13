@@ -50,15 +50,17 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    color: #008080;
+    font-size: 20px;
 }
 
 .profile .profile-form h2 {
     color: #4DB6AC;
 }
 
-.profile .profile-form {
-    color: #008080;
-    font-size: 20px;
+.profile .profile-form p {
+    border-bottom: 1px solid white;
+    padding: 10px;
 }
 
 .profile .profile-form button {

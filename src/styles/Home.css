@@ -2,12 +2,14 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     height: 100vh;
     /* border: 1px solid red; */
     margin-top: 5rem;
 }
 
+main > div {
+    margin-bottom: 200px;
+}
 
 main .hero img {
     height: 250px;
@@ -70,4 +72,72 @@ main .info .cards .card {
 main .info .cards .card:hover {
     transform: scale(1.10);
     
+}
+
+main .testimonials {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    /* border: 1px solid red; */
+    padding: 0 0 50px 0;
+}
+
+main .testimonial {
+    width: 250px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    border-left: 1px solid #98c1d9;
+    border-right: 1px solid #98c1d9;
+}
+
+main .testimonial p {
+    color: #c77dff;
+}
+
+main .testimonial p.text {
+    color: #FFD1DC;
+}
+
+main .testimonial p.level {
+    color: #A2E4B8;
+}
+
+main .testimonial img {
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+}
+
+main .testimonial-2 img {
+    height: 150px;
+}
+
+main .testimonial-3 img {
+    height: 170px;
+}
+
+@media (max-width: 1024px) {
+    main .info .cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    main .hero img {
+        height: 150px;
+    }
+
+    main .testimonial img {
+        display: none;
+    }
+
+    main .info .content p.text-1 {
+        text-align: center;
+    }
 }

@@ -47,3 +47,32 @@ nav .right button {
 nav .right button:hover {
     background-color: #7c0921;
 }
+
+@media (max-width: 750px) {
+    nav .left {
+        display: none;
+    }
+
+    nav {
+        justify-content: center;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 660px) {
+    nav .right {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .right .link {
+        width: 100%;
+    }
+
+    nav .right button {
+        width: 100%;
+    }
+}
