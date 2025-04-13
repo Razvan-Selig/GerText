@@ -2,10 +2,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     width: 80%;
     margin: auto;
-    padding: 10px;
+}
+
+nav .left img {
+    height: 100px;
 }
 
 nav .right {
@@ -20,11 +23,11 @@ nav .right .link {
     font-size: 15px;
     color: white;
     border-radius: 15px;
-    background-color: #17252A;
+    background-color: #EE6C4D;
     padding: 10px;
     transition: 0.3s;
 }
 
 nav .right .link:hover {
-    background-color: #2e3a3f;
+    background-color: #be563d;
 }

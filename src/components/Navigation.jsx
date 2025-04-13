@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import "../styles/Navigation.css"
+import logo from "../assets/logo-3.png"
 
 function Navigation({isLoggedIn, setIsLoggedIn}) {
 
@@ -16,7 +17,9 @@ function Navigation({isLoggedIn, setIsLoggedIn}) {
   return (
     <>
       <nav>
-        <div className="left"></div>
+        <div className="left">
+            <img src={logo} alt="" />
+        </div>
 
         <div className="right">
           <Link className="link" to={"/"}>Home</Link>

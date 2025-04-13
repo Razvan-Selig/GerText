@@ -64,21 +64,31 @@ function Register() {
     <div className="container">
       <h2>Registration</h2>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="first_name">First Name</label>
-        <input value={firstName} onChange={(e) => setFirstName(e.target.value)} type="text" placeholder="Enter First Name" />
+        <div className="form-element">
+          <label htmlFor="first_name">First Name</label>
+          <input value={firstName} onChange={(e) => setFirstName(e.target.value)} type="text" placeholder="Enter First Name" />
+        </div>
 
-        <label htmlFor="last_name">Last Name</label>
-        <input value={lastName} onChange={(e) => setLastName(e.target.value)} type="text" placeholder="Enter Last Name" />
+        <div className="form-element">
+          <label htmlFor="last_name">Last Name</label>
+          <input value={lastName} onChange={(e) => setLastName(e.target.value)} type="text" placeholder="Enter Last Name" />
+        </div>
 
-        <label htmlFor="username">Username</label>
-        <input value={id} onChange={(e) => setId(e.target.value)} type="text" placeholder="Enter a username" />
+        <div className="form-element">
+          <label htmlFor="username">Username</label>
+          <input value={id} onChange={(e) => setId(e.target.value)} type="text" placeholder="Enter a username" />
+        </div>
 
-        <label htmlFor="email">Email</label>
-        <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Enter Email" />
+        <div className="form-element">
+          <label htmlFor="email">Email</label>
+          <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Enter Email" />
+        </div>
 
-        <label htmlFor="password">Password</label>
-        <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="Enter Password" />
-
+        <div className="form-element">
+          <label htmlFor="password">Password</label>
+          <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="Enter Password" />
+        </div>
+        
         <button>Submit</button>
       </form>
     </div>
