@@ -9,6 +9,12 @@ function Home() {
             <img src={hero} alt="" />
         </div>
         <div className="info">
+            <div className="content">
+
+                <p className="text-1">Empower Your <span>Future</span>. Learn Anywhere. Build Everywhere For <span>A Bright Career</span></p>
+                <p className="text-2">What do  <span>WE</span> offer you?</p>
+                
+            </div>
 
             <div className="cards">
                 <div className="card card-1">
@@ -26,11 +32,11 @@ function Home() {
                 <div className="card card-5">
                     <p>Prepares for Real-Life Usage</p>
                 </div>
-                <div className="card card-6">
-                    <p>Motivational Boost</p>
-                </div>
             </div>
 
+        </div>
+        <div className="testimonials">
+            
         </div>
       </main>
     </>

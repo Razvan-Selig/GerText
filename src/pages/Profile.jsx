@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 
+import "../styles/Profile.css"
+
 function Profile() {
   const { username } = useParams();
   const [user, setUser] = useState(null);
@@ -9,10 +11,10 @@ function Profile() {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
-    email: ''
+    email: '',
+    id: ''
   });
 
-  // Fetch user data
   useEffect(() => {
     fetch(`http://localhost:3000/users/${username}`)
       .then(res => res.json())
@@ -22,7 +24,7 @@ function Profile() {
           firstName: data.firstName,
           lastName: data.lastName,
           email: data.email,
-          username: data.username,
+          id: data.id,
         });
       })
       .catch(() => toast.error("Failed to load profile"));
@@ -34,6 +36,13 @@ function Profile() {
   };
 
   const handleSubmit = (e) => {
+
+    const updateData = {
+      firstName:formData.firstName,
+      lastName:formData.lastName,
+      email:formData.email
+    }
+
     e.preventDefault();
     fetch(`http://localhost:3000/users/${user.id}`, {
       method: "PATCH",
@@ -41,8 +50,9 @@ function Profile() {
       body: JSON.stringify(formData)
     })
       .then(res => res.json())
-      .then(() => {
+      .then((updatedUser) => {
         toast.success("Profile updated!");
+        setUser(updatedUser)
         setEditMode(false);
       })
       .catch(() => toast.error("Update failed"));
@@ -51,54 +61,31 @@ function Profile() {
   if (!user) return <div>Loading...</div>;
 
   return (
-    <div>
-      <h2>My Profile</h2>
+    <div className="profile">
+      
       
       {editMode ? (
         <form onSubmit={handleSubmit}>
-          <label>
-            First Name:
-            <input
-              name="firstName"
-              value={formData.firstName}
-              onChange={handleChange}
-            />
-          </label>
+          <label>First Name:</label>
+          <input name="firstName" value={formData.firstName} onChange={handleChange} />
           
-          <label>
-            Last Name:
-            <input
-              name="lastName"
-              value={formData.lastName}
-              onChange={handleChange}
-            />
-          </label>
+          <label>Last Name:</label>
+          <input name="lastName" value={formData.lastName} onChange={handleChange} />
           
-          <label>
-            Email:
-            <input
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-            />
-          </label>
+          
+          <label>Email:</label>
+          <input name="email" value={formData.email} onChange={handleChange} />
+          
 
-          <label>
-            Username:
-            <input
-              name="username"
-              value={formData.username}
-              onChange={handleChange}
-            />
-          </label>
-          
+          <label>Username:</label>
+          <input name="username" value={formData.id} onChange={handleChange}/>
+             
           <button type="submit">Save</button>
-          <button type="button" onClick={() => setEditMode(false)}>
-            Cancel
-          </button>
+          <button type="button" onClick={() => setEditMode(false)}>Cancel</button>
         </form>
       ) : (
-        <div>
+        <div  className="profile-form">
+          <h2>My Profile</h2>
           <p>Name: {user.firstName} {user.lastName}</p>
           <p>Email: {user.email}</p>
           <p>Username: {user.id}</p>

@@ -10,20 +10,46 @@ main {
 
 
 main .hero img {
-    height: 300px;
+    height: 250px;
 }
 
 main .info {
     width: 80%;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main .info .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+main .info .content p.text-1 {
+    font-size: 20px;
+    padding: 0 0 20px 0;
+    color: #98FF98;
+    border-bottom: 1px solid #98FF98;
+
+}
+
+main .info .content p.text-2 {
+    color: #98FF98;
+    font-size: 20px;
+}
+
+main .info .content p span {
+    color: #c77dff;
 }
 
 main .info .cards {
     display: flex;
   flex-wrap: wrap; 
   justify-content: center; 
-  gap: 20px; 
-  width: 80%; 
+  gap: 25px; 
+  width: 90%; 
   margin: 0 auto;
   
 }
@@ -34,10 +60,11 @@ main .info .cards .card {
     align-items: center;
     height: 100px;
     background-color: #98c1d9;
-    padding: 10px;
+    padding: 15px;
     color: #3d5a80;
     border-radius: 15px;
     transition: 0.3s;
+    font-size: 20px;
 }
 
 main .info .cards .card:hover {

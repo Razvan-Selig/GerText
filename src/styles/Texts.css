@@ -31,3 +31,20 @@
 .texts-saved p {
     color: #E2725B;
 }
+
+.texts-saved .my-text button {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #B20D30;
+    color: white;
+    font-size: 17px;
+    transition: 0.3s;
+    
+}
+
+.texts-saved .my-text button:hover {
+    background-color: #7c0921;
+}

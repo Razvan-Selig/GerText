@@ -12,10 +12,6 @@ function Login({ setIsLoggedIn }) {
 
     const navigate = useNavigate()
 
-    useEffect(() => {
-        sessionStorage.clear()
-    },[])
-
     const ProceedLogin = (e) => {
         e.preventDefault()
         if(validate()) {

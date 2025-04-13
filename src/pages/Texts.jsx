@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 
 import "../styles/Texts.css"
 
@@ -15,6 +16,22 @@ function Texts() {
     .then(data => setMyText(data))
   }, [])
 
+  const deleteText = (textId) => {
+      fetch(`http://localhost:3000/userTexts/${textId}`, {
+        method:"DELETE",
+        headers: {"Content-Type":"application/json"},
+
+      })
+      .then(res => {
+        if(res.ok) {
+          toast.success("Text Deleted")
+          setMyText(prevTexts => prevTexts.filter(text => text.id !== textId))
+        } else {
+          alert("Failed to delete")
+        }
+      })
+  }
+
   return (
     <>
       <div className="texts-saved">
@@ -24,6 +41,7 @@ function Texts() {
           <div key={myText.id} className="my-text">
               <h3>{myText.title}</h3>
               <p>{myText.content}</p>
+              <button onClick={() => deleteText(myText.id)}>Delete Text</button>
           </div>
       ))}
       </div>

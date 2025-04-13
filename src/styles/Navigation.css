@@ -33,7 +33,7 @@ nav .right .link:hover {
 }
 
 nav .right button {
-    background-color: #e84855;
+    background-color: #B20D30;
     border-radius: 15px;
     font-size: 15px;
     padding: 10px;
@@ -45,5 +45,5 @@ nav .right button {
 }
 
 nav .right button:hover {
-    background-color: #b93944;
+    background-color: #7c0921;
 }

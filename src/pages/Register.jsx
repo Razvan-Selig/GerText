@@ -45,7 +45,6 @@ function Register() {
       e.preventDefault()
       let reg_info = {firstName, lastName, id, email, password}
       if(Validation()) {
-        // console.log(reg_info);
         
         fetch("http://localhost:3000/users", {
           method:"POST",
