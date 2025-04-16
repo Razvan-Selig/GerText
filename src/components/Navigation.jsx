@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import "../styles/Navigation.css"
-import logo from "../assets/logo-3.png"
+import logo from "../assets/logo-4.png"
 
 function Navigation({isLoggedIn, setIsLoggedIn}) {
 

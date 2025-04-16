@@ -19,11 +19,12 @@ nav .right {
 
 nav .right .link {
     text-decoration: none;
-    color: black;
-    font-size: 15px;
     color: white;
+    font-size: 15px;
     border-radius: 15px;
     background-color: #EE6C4D;
+    background-color: #98FF98;
+    background-color: #9615db;
     padding: 10px;
     transition: 0.3s;
 }

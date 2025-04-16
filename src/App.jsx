@@ -14,7 +14,7 @@ import "./styles/App.css"
 function App() {
 
   const [isLoggedIn, setIsLoggedIn] = useState(
-    sessionStorage.getItem('isLoggedIn') === 'true'
+    localStorage.getItem('isLoggedIn') === 'true'
   );
 
   
