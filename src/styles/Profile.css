@@ -11,7 +11,7 @@
 }
 
 .profile form label {
-    color: #4DB6AC;
+    color: #d2d3d3;
 }
 
 .profile form input {
@@ -55,12 +55,13 @@
 }
 
 .profile .profile-form h2 {
-    color: #4DB6AC;
+    color: #9615db;
 }
 
 .profile .profile-form p {
     border-bottom: 1px solid white;
     padding: 10px;
+    color: #d2d3d3;
 }
 
 .profile .profile-form button {

@@ -23,7 +23,12 @@ function Login({ setIsLoggedIn }) {
                     toast.warning("Please enter valid usernname")
                 } else {
                     if(resp.password === password) {
-                        toast.success("Success")
+                        toast.success(
+                        <div>
+                            <p>Logged In Successfully</p>
+                            <p>Welcome, {username}</p>
+                        </div>
+                    )
                         localStorage.setItem('isLoggedIn', 'true');
                         localStorage.setItem('username', username);
                         setIsLoggedIn(true)

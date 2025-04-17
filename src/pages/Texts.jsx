@@ -36,14 +36,18 @@ function Texts() {
     <>
       <div className="texts-saved">
         <p className="title">My texts</p>
-
-        {myText.map(myText => (
-          <div key={myText.id} className="my-text">
-              <h3>{myText.title}</h3>
-              <p>{myText.content}</p>
-              <button onClick={() => deleteText(myText.id)}>Delete Text</button>
-          </div>
-      ))}
+        <div className="texts">
+          {myText.map(myText => (
+            <div key={myText.id} className="my-text">
+                <h3>{myText.title}</h3>
+                <h4>Author: {myText.author}</h4>
+                <h4>Level: {myText.level}</h4>
+                <p>{myText.content}</p>
+                <button onClick={() => deleteText(myText.id)}>Delete Text</button>
+            </div>
+          
+        ))}
+        </div>
       </div>
     </>
   );

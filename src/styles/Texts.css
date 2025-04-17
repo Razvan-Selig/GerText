@@ -1,14 +1,24 @@
 .texts-saved {
     display: flex;
     flex-direction: column;
-    gap: 50px;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 50px;
+    width: 100%;
+    /* border: 1px solid blue; */
 }
 
 .texts-saved .title {
-    color: #4DB6AC;
+    color: #d2d3d3;
     font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.texts-saved .texts {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .my-text {
@@ -17,19 +27,22 @@
     align-items: center;
     gap: 10px;
     line-height: 1.5;
-    /* border: 1px solid yellow; */
-    width: 500px;
-    margin: auto;
-    border-bottom: 1px solid #4DB6AC;
+    width: 100%;
+    max-width: 500px;
+    border-bottom: 2px solid #9615db;
     padding: 10px;
 }
 
 .texts-saved h3 {
-    color: #FFDB58;
+    color: #9615db;
+}
+
+.texts-saved h4 {
+    color: #7d7f80;
 }
 
 .texts-saved p {
-    color: #E2725B;
+    color: #d2d3d3;
 }
 
 .texts-saved .my-text button {

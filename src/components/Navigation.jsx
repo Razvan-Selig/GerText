@@ -27,7 +27,7 @@ function Navigation({isLoggedIn, setIsLoggedIn}) {
           {isLoggedIn && <Link className="link" to={"/available-texts"}>Browse Texts</Link>}
           {isLoggedIn && <Link className="link" to={"/texts"}>My Texts</Link>}
           {!isLoggedIn && <Link className="link" to={"/login"}>Login</Link>}
-          {isLoggedIn && <Link className="link" to={`/profile/${username}`}>My Profile</Link>}
+          {isLoggedIn && <Link className="link" to={`/profile/${username}`}>Profile</Link>}
           {isLoggedIn && <button onClick={logOut}>Log Out</button>}
         </div>
       </nav>

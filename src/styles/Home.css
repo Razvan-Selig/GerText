@@ -64,6 +64,7 @@ main .info .cards .card {
     text-align: center;
     height: 250px;
     width: 250px;
+    gap: 20px;
     border-bottom: 3px solid #9615db;
     cursor: pointer;
     transition: 0.3s;
@@ -92,6 +93,8 @@ main .info .cards .card:hover .card-content {
 main .info .cards .card:hover .card-title {
     color: #7d7f80;
 }
+
+/* TESTIMONIALS ----------------- */
 
 main .testimonials {
     display: flex;
@@ -156,6 +159,7 @@ main .testimonial .test-r .t-name {
     color: #7d7f80;
 }
 
+/* FOOTER ------------------- */
 
 footer {
     background-color: #1f2123;
@@ -216,6 +220,7 @@ footer .footer-right .footer-links .social:hover {
     border-bottom: 2px solid #555759;
 }
 
+/* MEDIA QUERIES */
 
 @media (max-width: 1024px) {
     main .info .cards {
@@ -223,7 +228,6 @@ footer .footer-right .footer-links .social:hover {
         flex-direction: column;
         align-items: center;
         border: none;
-        /* border: 1px solid red; */
     }
 
     main .info .cards .card {

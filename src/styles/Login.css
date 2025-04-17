@@ -5,7 +5,7 @@
 }
 
 .login h2 {
-    color: #EE6C4D;
+    color: #d2d3d3;
 }
 
 .login form {
@@ -23,7 +23,7 @@
 }
 
 .login form label {
-    color: #98c1d9;
+    color: #9615db;
     margin-bottom: 10px;
 }
 
@@ -48,14 +48,15 @@
     outline: none;
     border: none;
     cursor: pointer;
-    background-color: #3d5a80;
+    background-color: #555759;
     color: white;
     font-size: 17px;
     transition: 0.3s;
 }
 
 .login form button:hover {
-    background-color: #304866;
+    background-color: palegreen;
+    color: black;
 }
 
 @media (max-width: 700px) {

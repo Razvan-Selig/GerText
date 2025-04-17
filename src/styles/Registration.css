@@ -1,11 +1,10 @@
 .container {
     margin-top: 5rem;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 .container h2 {
-    color: #EE6C4D;
+    color: #d2d3d3;
 }
 
 .container form {
@@ -21,11 +20,10 @@
     flex-direction: column;
     align-items: center;
     width: 40%;
-    /* border: 1px solid blue; */
 }
 
 .container form label {
-    color: #98c1d9;
+    color: #9615db;
     margin-bottom: 10px;
 }
 
@@ -52,15 +50,30 @@
     outline: none;
     border: none;
     cursor: pointer;
-    background-color: #3d5a80;
+    background-color: #555759;
     color: white;
     font-size: 17px;
     transition: 0.3s;
 }
 
 .container form button:hover {
-    background-color: #304866;
+    background-color: palegreen;
+    color: black;
 }
+
+.container form p {
+    color: white;
+}
+
+.container form p span {
+    color: #9615db;
+    border-bottom: 1px solid #9615db;
+    padding: 0 0 5px 0;
+    font-weight: bold;
+}
+
+
+/* MEDIA QUERIES----------- */
 
 @media (max-width: 700px) {
 
@@ -72,14 +85,8 @@
         width: 100%;
         text-align: center;
     }
-}
 
-.container form p {
-    color: white;
-}
-
-.container form p span {
-    color: #c77dff;
-    border-bottom: 1px solid #c77dff;
-    padding: 0 0 5px 0;
+    .container form p span {
+        border: none;
+    }
 }

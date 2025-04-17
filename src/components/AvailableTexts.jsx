@@ -25,6 +25,8 @@ function AvailableTexts() {
             body: JSON.stringify ({
                 title: save_text.title,
                 content: save_text.content,
+                author: save_text.author,
+                level: save_text.level,
                 userId: username
             })
         })
@@ -42,13 +44,17 @@ function AvailableTexts() {
 
         <div className="texts-container">
             <p className="title">Texts</p>
-            {texts.map(text => (
-                <div key={text.id} className="text-card">
-                    <h3>{text.title}</h3>
-                    <p>{text.content}</p>
-                    <button onClick={() => savedText(text)} type="submit">Save Text</button>
-                </div>
-            ))}
+            <div className="texts">
+                {texts.map(text => (
+                    <div key={text.id} className="text-card">
+                        <h3>{text.title}</h3>
+                        <h4>Author: {text.author}</h4>
+                        <h4>Level: {text.level}</h4>
+                        <p className="text-content">{text.content.split(" ").slice(0, 20).join(" ") + "..."}</p>
+                        <button onClick={() => savedText(text)} type="submit">Save Text</button>
+                    </div>
+                ))}
+            </div>
         </div>
         </>
     )

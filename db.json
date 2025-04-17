@@ -18,13 +18,38 @@
   "availableTexts": [
     {
       "id": 1,
-      "title": "Introduction to React",
-      "content": "React is a JavaScript library..."
+      "author": "Dr. Lena Hofmann",
+      "level": "B1",
+      "title": "Künstliche Intelligenz im Alltag",
+      "content": "Künstliche Intelligenz (KI) verändert unser tägliches Leben grundlegend. Von Sprachassistenten wie Alexa bis zu selbstfahrenden Autos - die Technologie ist allgegenwärtig. Besonders im Gesundheitswesen ermöglicht KI präzisere Diagnosen. Algorithmen analysieren Röntgenbilder schneller als menschliche Ärzte. Doch es gibt auch Bedenken. Datenschützer warnen vor dem Missbrauch persönlicher Daten. Die EU arbeitet an strengen Regulierungen für KI-Systeme. Ethikkommissionen diskutieren über moralische Grenzen. Trotz aller Herausforderungen wird KI weiter an Bedeutung gewinnen. Unternehmen investieren Milliarden in die Forschung. Die Zukunft wird zeigen, wie wir diese Technologie verantwortungsvoll nutzen."
     },
     {
       "id": 2,
-      "title": "Nobody",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue purus vel lectus lobortis maximus. Etiam et luctus est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus"
+      "author": "Markus Weber",
+      "level": "B2",
+      "title": "Aktienmarkt im Umbruch",
+      "content": "Der DAX verzeichnete heute einen starken Anstieg um 2,3%. Analysten führen dies auf die positiven Konjunkturdaten zurück. Besonders Technologieaktien performten überdurchschnittlich. Allerdings warnt die Bundesbank vor überzogenen Erwartungen. Die Inflation bleibt mit 4,1% weiterhin hoch. Die EZB plant mögliche Zinserhöhungen im nächsten Quartal. Kleinanleger zeigen sich verunsichert angesichts der Volatilität. Experten empfehlen langfristige Investments in breit gestreute ETFs. Der Bitcoin-Kurs stabilisierte sich bei 28.000 Euro. Rohstoffpreise fallen aufgrund der Entspannung im Welthandel. Die nächsten Wochen werden die Richtung des Marktes entscheiden."
+    },
+    {
+      "id": 3,
+      "author": "Sarah Bergmann",
+      "level": "C1",
+      "title": "Gesunde Ernährung im Winter",
+      "content": "Vitamin-D-Mangel ist in den dunklen Monaten weit verbreitet. Ernährungswissenschaftler empfehlen fetten Fisch wie Lachs oder Makrele. Zitrusfrüchte stärken dank Vitamin C das Immunsystem. Nüsse liefern wichtige Omega-3-Fettsäuren und Mineralstoffe. Fermentierte Lebensmittel unterstützen die Darmflora. Gleichzeitig sollte Zucker reduziert werden. Warme Haferflocken zum Frühstück geben langanhaltende Energie. Ingwertee wärmt von innen und wirkt entzündungshemmend. Regionales Wintergemüse wie Grünkohl ist besonders nährstoffreich. Ausreichend Wasser trinken wird oft vernachlässigt. Eine ausgewogene Ernährung kann Winterdepressionen vorbeugen."
+    },
+    {
+      "id": 4,
+      "author": "Thomas 'Tomi' Schmidt",
+      "level": "A1",
+      "title": "Berlin für Erstbesucher",
+      "content": "Die deutsche Hauptstadt bietet unendliche Möglichkeiten. Starten Sie am Brandenburger Tor, dem Symbol der Wiedervereinigung. Das Holocaust-Mahnmal hinterlässt einen bleibenden Eindruck. Für Kunstfans lohnt sich die Museumsinsel. Probieren Sie unbedingt eine originale Currywurst an der Imbissbude. Der Prenzlauer Berg bezaubert mit seinen Altbauwohnungen. Vergessen Sie nicht, eine Bootsfahrt auf der Spree zu machen. Abends bietet das Berghain für Clubfans ein einmaliges Erlebnis. Kaufen Sie Souvenirs am besten am Alexanderplatz. Die Berliner U-Bahn ist das schnellste Verkehrsmittel. Nehmen Sie sich mindestens 5 Tage Zeit für diese vielseitige Stadt."
+    },
+    {
+      "id": 5,
+      "author": "Prof. Dr. Katja Möller",
+      "level": "A1",
+      "title": "Windkraft in Deutschland",
+      "content": "Deutschland will bis 2045 klimaneutral werden. Windenergie spielt dabei eine Schlüsselrolle. Derzeit stammen 27% des Stroms aus Windkraft. Norddeutschland ist führend in der Offshore-Technologie. Bürgerinitiativen kritisieren jedoch die Landschaftsverschandelung. Neue Anlagen erreichen Höhen von über 200 Metern. Die Bundesregierung plant Sonderausschreibungen für Windparks. Techniker entwickeln leiser Rotorblätter für Wohngebiete. Der Export deutscher Windtechnik boomt weltweit. Gleichzeitig werden alte Anlagen fachgerecht recycelt. Die Energiewende bleibt ein zentrales politisches Thema. Fachkräftemangel bremst aktuell den weiteren Ausbau."
     }
   ],
   "userTexts": [
@@ -33,6 +58,14 @@
       "content": "React is a JavaScript library...",
       "userId": "XXsHAdowC",
       "id": 1
+    },
+    {
+      "title": "Aktienmarkt im Umbruch",
+      "content": "Der DAX verzeichnete heute einen starken Anstieg um 2,3%. Analysten führen dies auf die positiven Konjunkturdaten zurück. Besonders Technologieaktien performten überdurchschnittlich. Allerdings warnt die Bundesbank vor überzogenen Erwartungen. Die Inflation bleibt mit 4,1% weiterhin hoch. Die EZB plant mögliche Zinserhöhungen im nächsten Quartal. Kleinanleger zeigen sich verunsichert angesichts der Volatilität. Experten empfehlen langfristige Investments in breit gestreute ETFs. Der Bitcoin-Kurs stabilisierte sich bei 28.000 Euro. Rohstoffpreise fallen aufgrund der Entspannung im Welthandel. Die nächsten Wochen werden die Richtung des Marktes entscheiden.",
+      "author": "Markus Weber",
+      "level": "B2",
+      "userId": "CCErtX",
+      "id": 2
     }
   ]
 }
