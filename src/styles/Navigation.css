@@ -22,15 +22,13 @@ nav .right .link {
     color: white;
     font-size: 15px;
     border-radius: 15px;
-    background-color: #EE6C4D;
-    background-color: #98FF98;
     background-color: #9615db;
     padding: 10px;
     transition: 0.3s;
 }
 
 nav .right .link:hover {
-    background-color: #be563d;
+    background-color: #5a0c83;
 }
 
 nav .right button {

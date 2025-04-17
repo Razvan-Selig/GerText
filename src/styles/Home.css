@@ -4,7 +4,6 @@ main {
     align-items: center;
     justify-content: space-evenly;
     height: 200vh;
-    border: 1px solid red;
     margin-top: 5rem;
 }
 
@@ -17,7 +16,7 @@ main .info {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 50px;
+    gap: 80px;
 }
 
 main .info .content {
@@ -30,7 +29,6 @@ main .info .content {
 main .info .content p.text-1 {
     font-size: 20px;
     padding: 0 0 20px 0;
-    color: #98FF98;
     color: #d2d3d3;
     border-bottom: 1px solid #555759;
 
@@ -48,7 +46,6 @@ main .info .content p span {
 main .info .cards {
     display: flex;
     justify-content: space-evenly;
-    gap: 30px; 
     margin: auto;
     width: 100%;
 }
@@ -56,21 +53,59 @@ main .info .cards {
 main .info .cards .card {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     height: 250px;
     width: 250px;
+    border-bottom: 3px solid #9615db;
+    cursor: pointer;
     transition: 0.3s;
-    border: 1px solid red;
 }
 
+main .info .cards .card .card-title {
+    font-size: 20px;
+    color: #d2d3d3;
+    transition: 0.3s;
+}
+
+main .info .cards .card .card-content {
+    color: #7d7f80;
+    transition: 0.3s;
+}
 
 main .info .cards .card:hover {
-    transform: scale(1.10);
+    transform: scale(1.15);
     
 }
 
+main .info .cards .card:hover .card-content {
+    color: #d2d3d3;
+}
+
+main .info .cards .card:hover .card-title {
+    color: #7d7f80;
+}
+
 main .testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+main .testimonials-text {
+    font-size: 20px;
+    color: #d2d3d3;
+    border-bottom: 1px solid #555759;
+    padding-bottom: 10px;
+}
+
+main .testimonials-text span {
+    color: #9615db;
+}
+
+main .testimonials-container {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -116,9 +151,38 @@ main .testimonial .test-r .t-name {
 }
 
 
+footer {
+    /* border: 1px solid red; */
+    background-color: #1f2123;
+    display: flex;
+    margin: auto;
+    
+}
 
+footer .footer-left  {
+    /* border: 3px solid yellow; */
+    padding: 5px;
+    width: 25%;
+    text-align: center;
+    border-right: 3px solid #9615db;
+}
 
+footer .footer-left span {
+    color: #9615db;
+}
 
+footer .footer-left p {
+    color: white;
+    line-height: 2;
+}
+
+footer .footer-left img {
+    height: 150px;
+}
+
+footer .footer-right {
+    border: 1px solid red;
+}
 
 
 
