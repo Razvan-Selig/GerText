@@ -6,7 +6,11 @@ import pers_3 from "../assets/pers-3.jpg"
 import pers_4 from "../assets/pers-4.jpg"
 import logo from "../assets/logo-4.png"
 
-import { Link } from "react-router-dom"
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
+
 
 function Home() {
   return (
@@ -117,7 +121,10 @@ function Home() {
         <div className="footer-right">
             <p>Follow us</p>
             <div className="footer-links">
-                <Link to={""}></Link>
+                <a href="#"><FaFacebook className="social"/></a>
+                <a href="#"><FaInstagram className="social"/></a>
+                <a href="#"><FaXTwitter className="social"/></a>
+                <a href="#"><FaYoutube className="social"/></a>
             </div>
         </div>
       </footer>
