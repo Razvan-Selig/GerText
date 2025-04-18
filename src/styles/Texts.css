@@ -45,7 +45,12 @@
     color: #d2d3d3;
 }
 
-.texts-saved .my-text button {
+.texts-saved .my-text .buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.texts-saved .my-text button.delete {
     padding: 10px;
     border-radius: 10px;
     outline: none;
@@ -58,6 +63,22 @@
     
 }
 
-.texts-saved .my-text button:hover {
+.texts-saved .my-text button.full-text {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #555759;
+    color: white;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.texts-saved .my-text button.delete:hover {
     background-color: #7c0921;
+}
+
+.texts-saved .my-text button.full-text:hover {
+    background-color: #444547;
 }

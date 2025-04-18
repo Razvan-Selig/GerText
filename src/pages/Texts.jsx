@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
+import {useNavigate} from "react-router-dom"
 
 import "../styles/Texts.css"
 
 function Texts() {
 
   const [myText, setMyText] = useState([])
+  const navigate = useNavigate();
 
   useEffect(() => {
 
@@ -32,6 +34,10 @@ function Texts() {
       })
   }
 
+  const viewText = (textId) => {
+    navigate(`/text/${textId}`)
+  }
+
   return (
     <>
       <div className="texts-saved">
@@ -42,8 +48,11 @@ function Texts() {
                 <h3>{myText.title}</h3>
                 <h4>Author: {myText.author}</h4>
                 <h4>Level: {myText.level}</h4>
-                <p>{myText.content}</p>
-                <button onClick={() => deleteText(myText.id)}>Delete Text</button>
+                <p>{myText.content.split(" ").slice(0, 20).join(" ") + "..."}</p>
+                <div className="buttons">
+                  <button className="delete" onClick={() => deleteText(myText.id)}>Delete Text</button>
+                  <button className="full-text" onClick={() => viewText(myText.id)}>See Text</button>
+                </div>
             </div>
           
         ))}

@@ -8,6 +8,7 @@ import Texts from "./pages/Texts"
 import { useState } from "react"
 import AvailableTexts from "./components/AvailableTexts"
 import Profile from "./pages/Profile"
+import FullText from "./pages/FullText"
 
 import "./styles/App.css"
 
@@ -30,7 +31,7 @@ function App() {
         <Route path="/available-texts" element={<AvailableTexts />} />
         <Route path="/texts" element={<Texts/>}/>
         <Route path="/profile/:username" element={<Profile/>}/>
-        {/* <Route path="/save-text/:textId" element={<SaveText />} /> */}
+        <Route path="/text/:id" element={<FullText/>}/>
       </Routes>
     </>
   )

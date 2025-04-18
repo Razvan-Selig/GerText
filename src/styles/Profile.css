@@ -37,8 +37,8 @@
     outline: none;
     border: none;
     cursor: pointer;
-    background-color: #3F784C;
-    color: white;
+    background-color: palegreen;
+    color: black;
     font-size: 17px;
     transition: 0.3s;
     width: 100px;
@@ -70,8 +70,8 @@
     outline: none;
     border: none;
     cursor: pointer;
-    background-color: #3F784C;
-    color: white;
+    background-color: palegreen;
+    color: black;
     font-size: 17px;
     transition: 0.3s;
     width: 100px;

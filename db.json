@@ -66,6 +66,26 @@
       "level": "B2",
       "userId": "CCErtX",
       "id": 2
+    },
+    {
+      "title": "Gesunde Ernährung im Winter",
+      "content": "Vitamin-D-Mangel ist in den dunklen Monaten weit verbreitet. Ernährungswissenschaftler empfehlen fetten Fisch wie Lachs oder Makrele. Zitrusfrüchte stärken dank Vitamin C das Immunsystem. Nüsse liefern wichtige Omega-3-Fettsäuren und Mineralstoffe. Fermentierte Lebensmittel unterstützen die Darmflora. Gleichzeitig sollte Zucker reduziert werden. Warme Haferflocken zum Frühstück geben langanhaltende Energie. Ingwertee wärmt von innen und wirkt entzündungshemmend. Regionales Wintergemüse wie Grünkohl ist besonders nährstoffreich. Ausreichend Wasser trinken wird oft vernachlässigt. Eine ausgewogene Ernährung kann Winterdepressionen vorbeugen.",
+      "author": "Sarah Bergmann",
+      "level": "C1",
+      "userId": "CCErtX",
+      "id": 3
+    },
+    {
+      "title": "Windkraft in Deutschland",
+      "content": "Deutschland will bis 2045 klimaneutral werden. Windenergie spielt dabei eine Schlüsselrolle. Derzeit stammen 27% des Stroms aus Windkraft. Norddeutschland ist führend in der Offshore-Technologie. Bürgerinitiativen kritisieren jedoch die Landschaftsverschandelung. Neue Anlagen erreichen Höhen von über 200 Metern. Die Bundesregierung plant Sonderausschreibungen für Windparks. Techniker entwickeln leiser Rotorblätter für Wohngebiete. Der Export deutscher Windtechnik boomt weltweit. Gleichzeitig werden alte Anlagen fachgerecht recycelt. Die Energiewende bleibt ein zentrales politisches Thema. Fachkräftemangel bremst aktuell den weiteren Ausbau.",
+      "author": "Prof. Dr. Katja Möller",
+      "level": "A1",
+      "userId": "CCErtX",
+      "id": 4
     }
+  ],
+  "vocabulary": [
+    
+
   ]
 }
