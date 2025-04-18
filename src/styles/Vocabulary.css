@@ -1,0 +1,30 @@
+.voc-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+    margin: auto;
+
+}
+
+.voc-container h2 {
+    color: #9615db;
+    margin-top: 50px;
+}
+
+.voc-container ul {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.voc-container ul li {
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-type: decimal;
+    color: #d2d3d3;
+    background-color: #555759;
+    width: fit-content;
+}

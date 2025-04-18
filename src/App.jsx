@@ -9,6 +9,7 @@ import { useState } from "react"
 import AvailableTexts from "./components/AvailableTexts"
 import Profile from "./pages/Profile"
 import FullText from "./pages/FullText"
+import Vocabulary from "./pages/Vocabulary"
 
 import "./styles/App.css"
 
@@ -32,6 +33,7 @@ function App() {
         <Route path="/texts" element={<Texts/>}/>
         <Route path="/profile/:username" element={<Profile/>}/>
         <Route path="/text/:id" element={<FullText/>}/>
+        <Route path="/vocabulary" element={<Vocabulary/>}/>
       </Routes>
     </>
   )

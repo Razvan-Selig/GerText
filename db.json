@@ -54,12 +54,6 @@
   ],
   "userTexts": [
     {
-      "title": "Introduction to React",
-      "content": "React is a JavaScript library...",
-      "userId": "XXsHAdowC",
-      "id": 1
-    },
-    {
       "title": "Aktienmarkt im Umbruch",
       "content": "Der DAX verzeichnete heute einen starken Anstieg um 2,3%. Analysten führen dies auf die positiven Konjunkturdaten zurück. Besonders Technologieaktien performten überdurchschnittlich. Allerdings warnt die Bundesbank vor überzogenen Erwartungen. Die Inflation bleibt mit 4,1% weiterhin hoch. Die EZB plant mögliche Zinserhöhungen im nächsten Quartal. Kleinanleger zeigen sich verunsichert angesichts der Volatilität. Experten empfehlen langfristige Investments in breit gestreute ETFs. Der Bitcoin-Kurs stabilisierte sich bei 28.000 Euro. Rohstoffpreise fallen aufgrund der Entspannung im Welthandel. Die nächsten Wochen werden die Richtung des Marktes entscheiden.",
       "author": "Markus Weber",
@@ -82,10 +76,66 @@
       "level": "A1",
       "userId": "CCErtX",
       "id": 4
+    },
+    {
+      "title": "Künstliche Intelligenz im Alltag",
+      "content": "Künstliche Intelligenz (KI) verändert unser tägliches Leben grundlegend. Von Sprachassistenten wie Alexa bis zu selbstfahrenden Autos - die Technologie ist allgegenwärtig. Besonders im Gesundheitswesen ermöglicht KI präzisere Diagnosen. Algorithmen analysieren Röntgenbilder schneller als menschliche Ärzte. Doch es gibt auch Bedenken. Datenschützer warnen vor dem Missbrauch persönlicher Daten. Die EU arbeitet an strengen Regulierungen für KI-Systeme. Ethikkommissionen diskutieren über moralische Grenzen. Trotz aller Herausforderungen wird KI weiter an Bedeutung gewinnen. Unternehmen investieren Milliarden in die Forschung. Die Zukunft wird zeigen, wie wir diese Technologie verantwortungsvoll nutzen.",
+      "author": "Dr. Lena Hofmann",
+      "level": "B1",
+      "userId": "XXsHAdowC",
+      "id": 5
     }
   ],
   "vocabulary": [
-    
-
+    {
+      "userId": "CCErtX",
+      "word": "analysten",
+      "id": 1
+    },
+    {
+      "userId": "CCErtX",
+      "word": "performten",
+      "id": 2
+    },
+    {
+      "userId": "CCErtX",
+      "word": "empfehlen",
+      "id": 3
+    },
+    {
+      "userId": "CCErtX",
+      "word": "investments",
+      "id": 4
+    },
+    {
+      "userId": "CCErtX",
+      "word": "langfristige",
+      "id": 5
+    },
+    {
+      "userId": "XXsHAdowC",
+      "word": "nutzen",
+      "id": 6
+    },
+    {
+      "userId": "XXsHAdowC",
+      "word": "sprachassistenten",
+      "id": 7
+    },
+    {
+      "userId": "XXsHAdowC",
+      "word": "algorithmen",
+      "id": 8
+    },
+    {
+      "userId": "XXsHAdowC",
+      "word": "diagnosen",
+      "id": 9
+    },
+    {
+      "userId": "XXsHAdowC",
+      "word": "daten",
+      "id": 10
+    }
   ]
 }
