@@ -84,6 +84,14 @@
       "level": "B1",
       "userId": "XXsHAdowC",
       "id": 5
+    },
+    {
+      "title": "Aktienmarkt im Umbruch",
+      "content": "Der DAX verzeichnete heute einen starken Anstieg um 2,3%. Analysten führen dies auf die positiven Konjunkturdaten zurück. Besonders Technologieaktien performten überdurchschnittlich. Allerdings warnt die Bundesbank vor überzogenen Erwartungen. Die Inflation bleibt mit 4,1% weiterhin hoch. Die EZB plant mögliche Zinserhöhungen im nächsten Quartal. Kleinanleger zeigen sich verunsichert angesichts der Volatilität. Experten empfehlen langfristige Investments in breit gestreute ETFs. Der Bitcoin-Kurs stabilisierte sich bei 28.000 Euro. Rohstoffpreise fallen aufgrund der Entspannung im Welthandel. Die nächsten Wochen werden die Richtung des Marktes entscheiden.",
+      "author": "Markus Weber",
+      "level": "B2",
+      "userId": "XXsHAdowC",
+      "id": 6
     }
   ],
   "vocabulary": [
@@ -114,11 +122,6 @@
     },
     {
       "userId": "XXsHAdowC",
-      "word": "nutzen",
-      "id": 6
-    },
-    {
-      "userId": "XXsHAdowC",
       "word": "sprachassistenten",
       "id": 7
     },
@@ -136,6 +139,11 @@
       "userId": "XXsHAdowC",
       "word": "daten",
       "id": 10
+    },
+    {
+      "userId": "CCErtX",
+      "word": "energiewende",
+      "id": 11
     }
   ]
 }

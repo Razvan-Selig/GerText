@@ -13,7 +13,6 @@
 }
 
 .voc-container ul {
-    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -27,4 +26,14 @@
     color: #d2d3d3;
     background-color: #555759;
     width: fit-content;
+}
+
+.voc-container button {
+    border: none;
+    background: transparent;
+    background-color: #B20D30;
+    padding: 4px;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: white;
 }
